@@ -1,6 +1,14 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "marimo>=0.20.3",
+#     "pyzmq>=27.1.0",
+# ]
+# ///
+
 import marimo
 
-__generated_with = "0.20.2"
+__generated_with = "0.20.3"
 app = marimo.App()
 
 
@@ -63,7 +71,6 @@ def _(create_agent, llm, question):
     )
 
     response2 = scifi_agent.invoke({"messages": [question]})
-
     return
 
 
