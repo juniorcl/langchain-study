@@ -9,4 +9,5 @@ dependencies = [
     "langchain-ollama>=1.0.1",
     "marimo>=0.20.2",
     "pyzmq>=27.1.0",
+    "tavily>=1.1.0",
 ]
