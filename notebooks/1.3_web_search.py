@@ -12,8 +12,15 @@
 
 import marimo
 
-__generated_with = "0.20.3"
+__generated_with = "0.20.2"
 app = marimo.App()
+
+
+@app.cell
+def _():
+    import marimo as mo
+
+    return (mo,)
 
 
 @app.cell

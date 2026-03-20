@@ -46,6 +46,7 @@ def _(ToolRuntime, dataclass, tool):
         favourite_colour: str = "blue"
         least_favourite_colour: str = "yellow"
 
+    # o context é passado por meio de funções que recebem um objeto chamado runtime
     @tool
     def get_favourite_colour(runtime: ToolRuntime) -> str:
         """Get the favourite colour of the user"""
